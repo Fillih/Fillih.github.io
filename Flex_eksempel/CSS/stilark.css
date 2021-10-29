@@ -1,0 +1,97 @@
+.Innpakning {
+    width: 80%; /*Breidda på flexboksen*/
+    background-color: #ffffff; /*Ein mørk gråfarge*/
+    margin: auto; /*Like stor høgre- og venstremarg*/
+    display: flex; /*Lagar ein flexboks*/
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tilbake {
+    width: 150px;
+    height: 30px;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 15px;
+}
+
+.Topptekst {
+    height: 60px;
+    width: 100%;
+    background-color: #b6b3b3;
+    padding: 5px; /*Indre marg*/
+    margin-top: 5px; /*Ytre marg*/
+    margin-left: 5px;
+    margin-right: 5px;
+    order: 1;
+}
+
+.Meny {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    background-color: #b6b3b3;
+    padding: 5px; /*Indre marg*/
+    margin-bottom: 5px; /*Ytre marg*/
+    margin-left: 5px;
+    margin-right: 5px;
+    order: 2;
+}
+
+h1, h2, h5 {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+}
+
+ul a {
+    padding: 10px 30px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #b6b3b3;
+}
+
+ul a:hover {
+    background-color: #707070;
+}
+
+.tomrom1 {
+    width: 34%;
+    order: 3;
+}
+
+.tomrom2 {
+    width: 34%;
+    order: 5;
+}
+
+p {
+    text-align: justify;
+}
+
+.Innhald {
+    width: 70%;
+    background-color: #ffffff;
+    padding: 5px; /*Indre marg*/
+    margin: auto; /*Ytre marg*/
+    order: 4;
+}
+
+.Botntekst {
+    background-color: #b6b3b3;
+    height: 55px;
+    width: 100%;
+    padding: 5px; /*Indre marg*/
+    margin: 5px; /*Ytre marg*/
+    order: 6;
+}

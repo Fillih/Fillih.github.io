@@ -1,0 +1,123 @@
+.innpakning {
+    width: 800px;
+    background-color: #ffffff;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tilbake {
+    width: 150px;
+    height: 30px;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 15px;
+}
+
+.topptekst {
+    flex-basis: 100%; /*Fyllar heile breidden i innpakninga*/
+    height: 90px;
+    text-align: center;
+    background-color: #2b7a78;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    order: 1;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #17252a;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.meny {
+    flex-basis: 200px;
+    background-color: #3aafa9;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    order: 2;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    display: block;
+    width: 175px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+    color: #17252a;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #3aafa9;
+}
+
+ul a:hover {
+    background-color: #3aafa9;
+}
+
+.innhald {
+    background-color: #def2f1;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex: 1; /*brukar tilgjengeleg breidde*/
+    order: 3;
+    padding: 15px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+.innhaldvenstre {
+    flex-grow: 2;
+    background-color: #3aafa9;
+    padding: 5px;
+}
+
+.innhaldsenter {
+    flex-grow: 2;
+    background-color: #def2f1;
+    padding: 5px;
+}
+
+.innhaldhøgre {
+    flex-grow: 1;
+    background-color: #3aafa9;
+    padding: 5px;
+}
+
+.under, .under2 {
+    background-color: #def2f1;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    order: 4;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.botntekst {
+    flex-basis: 100%;
+    text-align: center;
+    color: #17252a;
+    background-color: #2b7a78;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    order: 5;
+}
