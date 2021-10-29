@@ -1,0 +1,60 @@
+.tilbake {
+    width: 150px;
+    height: 30px;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 15px;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+
+.wrapper > * {
+    flex: 1 100%;
+}
+
+.header {
+    background: tomato;
+    padding: 5px;
+}
+
+.footer {
+    background: lightgreen;
+    padding: 5px;
+}
+
+.main {
+    text-align: justify;
+    background: deepskyblue;
+    padding: 5px;
+}
+
+.aside-1 {
+    background: gold;
+    padding: 5px;
+}
+
+.aside-2 {
+    background: hotpink;
+    padding: 5px;
+}
+
+@media all and (min-width: 600px) {
+    .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+    .main    { flex: 3 0px; }
+    .aside-1 { order: 1; } 
+    .main    { order: 2; }
+    .aside-2 { order: 3; }
+    .footer  { order: 4; }
+}
+
+body {
+    padding: 2em;
+}
